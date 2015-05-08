@@ -67,7 +67,7 @@ page.open( url, function( status ) {
 
     var imgPath = indexPath +
                     'img/current/' +
-                    image +
+                    image.replace( /:/g, '-') +
                     '-' + width +
                     '.png';
 
